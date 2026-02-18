@@ -19,15 +19,9 @@
 ### Build & Run
 
        git clone https://github.com/ichsanyudika12/zed-oc-api-seg.git
-       
        cd zed-oc-api-seg
-       
-       mkdir build
-       
-       cd build
-       
+       mkdir build && cd build
        cmake ..
-       
        make
        
        ./main
